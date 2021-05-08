@@ -42,17 +42,13 @@ google_analytics:
   - 'auto'
 
 nav:
-    - 负一：计划规格:
-        - 章节编写指导: Spec/writing.md
-        - 演示文稿规格: Spec/slide.md
-    - 序: preface.md
     - 零：欢迎:
         - 欢迎: index.md
         - 记号约定: notations.md
         - 功劳簿: credits.md
     - 一：初识 Linux:
-        - 什么是Linux: Ch01/index.md
-        - 终端，ssh与文件传输: Ch01/terminal-and-file-transfer.md
+        - Linux 基本介绍: Ch01/index.md
+        - 终端、SSH 与文件传输: Ch01/terminal-and-file-transfer.md
         - 编译与安装软件: Ch01/compile-and-install.md
         - 脚本与配置文件的编写与修改: Ch01S/script-and-configuration.md
         - 网上冲浪与建站: Ch01/interaction-with-internet.md
@@ -62,4 +58,3 @@ nav:
         - 词汇表: Appendix/glossary.md
         - man 文档的一些示例: Appendix/man.md
         - 其他的 Linux 发行版：技术差异简介: Appendix/distribution.md
-    - 跋: postface.md
