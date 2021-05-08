@@ -15,7 +15,7 @@ Linux 内核并不是一个完整的操作系统，因为它过于精简，单�
 ??? tip "GNU/Linux"
 
     GNU 计划最初是为了对抗 UNIX 而建立的，这可以从 GNU 的全称 “GNU's Not UNIX”（GNU 不是 UNIX）中十分直观地看出来。GNU 计划的创始人理查德·斯托曼希望通过这个计划开发一个自由的操作系统 GNU，他将 GNU 操作系统视作“达成社会目的的技术方法”。
-    
+
     虽然 GNU 计划产生出了许多自由开源的组件和软件，但其核心的 GNU 操作系统却至今没有开发完成。在实际操作中，GNU 计划的组件通常都会依赖 Linux 内核作为系统核心来承载它们，它们在一起合称 GNU/Linux。在这里，Linux 内核是功能核心，而 GNU 组件则是这块核心的外设，也是用户操作和使用 Linux 内核的工具。众多当今通用计算机和服务器上主流的 Linux 发行版都属于 GNU/Linux。
 
 ### Linux 发行版 {#linux-distributions}
@@ -98,6 +98,10 @@ Debian GNU/Linux 也派生了很多发行版，其中最为著名的便是 Ubunt
 本次课程使用 Debian 作为演示用操作系统。本书的编写组已经制作了其虚拟机镜像，供读者按需求下载使用。
 
 [VMware Debian Buster 64 位](https://mirrors.sustech.edu.cn/site/introduction-to-scientific-computation/vm/)
+
+!!! warning inline
+    在二教205使用VMWare启动虚拟机前，请先至「适配器属性页面」启用VMWare的相关网卡，并在服务中启用`vmware NAT service`和`vmware DHCP service`后再启动虚拟机，并设置虚拟机的网络为NAT模式。（否则虚拟机可能无法连接网络）
+
 
 如果读者想要自己安装 Ubuntu 操作系统的话，以下两篇博客也可以参考：
 
