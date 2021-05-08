@@ -41,6 +41,10 @@ google_analytics:
   - 'UA-160637954-1'
   - 'auto'
 
+plugins:
+  - search
+
+
 nav:
     - 零：欢迎:
         - 欢迎: index.md
@@ -48,9 +52,9 @@ nav:
         - 功劳簿: credits.md
     - 一：初识 Linux:
         - Linux 基本介绍: Ch01/index.md
-        - 终端、SSH 与文件传输: Ch01/terminal-and-file-transfer.md
+        - 桌面环境、终端、SSH 与文件传输: Ch01/desktop-terminal-and-file-transfer.md
         - 编译与安装软件: Ch01/compile-and-install.md
-        - 脚本与配置文件的编写与修改: Ch01S/script-and-configuration.md
+        - 脚本与配置文件的编写与修改: Ch01/script-and-configuration.md
         - 网上冲浪与建站: Ch01/interaction-with-internet.md
         - 拓展阅读: Ch01/supplement.md
         - 思考题解答: Ch01/solution.md
