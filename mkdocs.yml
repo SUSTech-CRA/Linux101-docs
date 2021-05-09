@@ -51,8 +51,9 @@ nav:
         - 记号约定: notations.md
         - 功劳簿: credits.md
     - 一：初识 Linux:
-        - Linux 基本介绍: Ch01/index.md
+        - Linux 基本介绍: Ch01/intro.md
         - 桌面环境、终端、SSH 与文件传输: Ch01/desktop-terminal-and-file-transfer.md
+        - 桌面环境、终端、SSH 与文件传输: Ch01/process.md
         - 编译与安装软件: Ch01/compile-and-install.md
         - 脚本与配置文件的编写与修改: Ch01/script-and-configuration.md
         - 网上冲浪与建站: Ch01/interaction-with-internet.md
